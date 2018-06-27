@@ -1,4 +1,14 @@
-body {
+#logo-img{
+	width: 50px;
+	height: 50px;
+}
+
+.navbar {
+  width: 100%;;
+  height: auto;
+}
+
+ body {
 	background: no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -43,10 +53,13 @@ body {
         width: 50%;
     }
 }
+
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
+}
+
 .pageTwo {
 	padding-top:40px;
 	margin-top:3%;
@@ -68,12 +81,13 @@ body {
 	padding-top:200px;
 	padding-bottom:50px;
 	margin-top:2%;
-	height:650px;
+	height:750px;
 }
 
 .social {
   padding-top: 10px;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -92,5 +106,5 @@ footer {
   padding-top: 40px;
   padding-bottom: 20px;
   color: black;
-  font-weight:16px;
+  font-weight: bold;
 }
